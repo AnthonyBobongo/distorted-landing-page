@@ -18,7 +18,19 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 30px 5%;
+}
 
+.logo {
+  font-size: 25px;
+}
+
+li,
+a,
+button {
+  font-family: "Monument Extended", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 
@@ -30,8 +42,31 @@ header {
 
 .nav-links li {
   display: inline-block;
-  text-decoration: none;
+  padding: 0px 10px;
 }
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #b3b3b3;
+}
+
+button {
+  padding: 5px 17px;
+  background-color: rgba(9, 180, 248, 0.4) !important;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(9, 180, 248, 0.2);
+
+}
+
+
 
 .smooth-scroll-wrapper {
   position: fixed;
